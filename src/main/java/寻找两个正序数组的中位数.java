@@ -1,7 +1,7 @@
 public class 寻找两个正序数组的中位数 {
     public static void main(String[] args) {
-        int []nums1 = {2,7,11,15};
-        int []nums2 = {3,8,17,21};
+        int []nums1 = {2,8,10,12};
+        int []nums2 = {1,2,3,4,5};
         System.out.println(findMedianSortedArrays(nums1,nums2));
         System.out.println(findMedianSortedArrays2(nums1,nums2));
     }
@@ -78,7 +78,7 @@ public class 寻找两个正序数组的中位数 {
         int left = 0;
         int right = m;
         while(left<right){
-            int i = left +( right -left +1) / 2;
+            int i = left +( right -left+1) / 2;
             int j = totalLeft -i;
             if(nums1[i-1]>nums2[j]){
                 //下一轮搜索区间[left,i-1]

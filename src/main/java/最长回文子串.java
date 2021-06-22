@@ -9,6 +9,8 @@ public class 最长回文子串 {
         System.out.println(longestPalindrome2(s));
         System.out.println(longestPalindrome3(s));
         System.out.println(longestPalindrome4(s));
+
+
     }
 
 

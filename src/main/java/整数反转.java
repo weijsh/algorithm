@@ -2,7 +2,8 @@ public class 整数反转 {
     public static void main(String[] args) {
         System.out.println(reverse(-2147483648));
         System.out.println(reverse2(-2147483647));
-        System.out.println(2<<1);
+        System.out.println((2<<30)-1);
+        System.out.println((-2<<30)-1);
     }
     public static int reverse(int x) {
         int rev = 0;

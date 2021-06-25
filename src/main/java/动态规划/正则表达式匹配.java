@@ -1,3 +1,5 @@
+package 动态规划;
+
 public class 正则表达式匹配 {
     public static void main(String[] args) {
         System.out.println(isMatch("a","a*"));
